@@ -1,5 +1,5 @@
 # poem_buttem
-> A program that gives you some famous poems each time you click.
+> A program that gives you some famous poems each time you click. (The two files in the folder are integrated.)
 
 ## Table of Contents
 * [General Info](#general-information)
