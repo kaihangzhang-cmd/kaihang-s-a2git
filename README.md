@@ -1,5 +1,5 @@
 # poem_buttem
-> Outline a brief description of your project.
+> A program that gives you some famous poems each time you click.
 
 ## Table of Contents
 * [General Info](#general-information)
