@@ -5,7 +5,7 @@
 from datetime import datetime
 import random
 
-# -------------------- DATA --------------------
+#
 poems = [
     {"text": u"床前明月光，疑是地上霜。", "en": "Moonlight before my bed, like frost upon the ground.", "author": u"Li Bai"},
     {"text": u"举头望明月，低头思故乡。", "en": "I raise my head to the bright moon, then bow and think of home.", "author": u"Li Bai"},
@@ -19,7 +19,7 @@ poems = [
     {"text": u"但愿人长久，千里共婵娟。", "en": "May we live long, sharing the moon across a thousand miles.", "author": u"Su Shi"},
 ]
 
-# -------------------- STATE --------------------
+# 
 used_indices = []
 current_index = None
 favs = []
@@ -63,7 +63,7 @@ SAVE_W, SAVE_H = 300, 44
 SAVE_X = BTN_X + 8
 SAVE_Y = 420
 
-# -------------------- HELPERS --------------------
+# 
 def pick_font_simple(name_list, size, fallback="Serif"):
     """Try names in order; if none load, fall back to 'fallback'."""
     for nm in name_list:
@@ -179,7 +179,7 @@ def draw_toast():
     textFont(uiFont)
     text(toast_msg, WIN_W/2, y + th/2)
 
-# -------------------- PROCESSING HOOKS --------------------
+# 
 def setup():
     global uiFont, cjkFont, buttons
     size(WIN_W, WIN_H)
@@ -316,3 +316,4 @@ def save_favourites():
     lines = [u"%s  -  %s  -  %s" % (p["text"], p.get("en",""), p.get("author","")) for p in favs]
     saveStrings(fname, lines)
     toast("Saved as %s" % fname)
+
