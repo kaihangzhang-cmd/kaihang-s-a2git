@@ -59,6 +59,50 @@ buttons["save"]  = Button("Save Favourites (TXT)", SAVE_X, SAVE_Y, SAVE_W, SAVE_
 
 ## Features
 List the ready features here:
-- Awesome feature 1
+feature 1-Random poetry selection without repetition
+feature 2-Only an English user interface is provided, but the display of poetry supports bilingual (Chinese + English).
+feature 3-Smooth fade-in/slide animation for the transition of verses
+feature 4-Customize reusable button classes with hover/press feedback
+feature 5-"Save" and "Save as TXT" functions
+feature 6-An easily accessible top-down layout and a clear text hierarchy
 
 
+## Screenshots
+<img width="720" height="537" alt="屏幕截图 2025-11-01 120231" src="https://github.com/user-attachments/assets/a1f84b3f-76bb-495d-a69e-490918479196" />
+Minimalist interface, displaying the "Show Poetry" button, prompt information and poetry display cards
+
+
+## Setup
+The running body requires the following code to be in the same folder as the body.
+mode=Python
+mode.id=jycessing.mode.PythonMode
+
+
+## Usage
+1. Click "Show a Poem" → A random Chinese poem and its translation will appear.
+2. Press "Again" → the next non-repeated poem will be displayed.
+3. Click "Collect" → Add the current poem to the saved list.
+4. Press "Save Favorites (TXT)" → Export your list to a text file.
+
+
+## Project Status
+Completed
+This project successfully demonstrated a smooth interaction design.
+Future versions may incorporate features such as sound, keyboard control or adaptive typesetting.
+
+
+## Room for Improvement
+To-do List/Future Features
+Allow users to import their own poetry files
+
+
+## Acknowledgements
+This project was inspired by:
+The Scaling Everest interactive from The Washington Post (2016).
+“Exploring Chinese Poetry using Adobe Spark Video” by Chung & Wang (2020).
+Processing community tutorials on interactive art and generative design.
+Special thanks to the UTS code class Thank you to the course and the teacher for inspiring the combination of code and art.
+
+
+## Contact
+Created by [Kaihang.Zhang@student.uts.edu.au) - feel free to contact me!
