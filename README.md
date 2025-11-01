@@ -69,6 +69,7 @@ feature 6-An easily accessible top-down layout and a clear text hierarchy
 
 ## Screenshots
 <img width="720" height="537" alt="屏幕截图 2025-11-01 120231" src="https://github.com/user-attachments/assets/a1f84b3f-76bb-495d-a69e-490918479196" />
+
 Minimalist interface, displaying the "Show Poetry" button, prompt information and poetry display cards
 
 
